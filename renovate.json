@@ -1,0 +1,14 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"packageRules": [
+		{
+			"matchPackageNames": [
+				"actions/setup-go"
+			],
+			"matchUpdateTypes": [
+				"digest"
+			],
+			"changelogUrl": "{{sourceRepo}}/compare/{{currentDigest}}...{{newDigest}}"
+		}
+	]
+}
