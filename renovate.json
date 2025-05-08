@@ -2,6 +2,7 @@
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"packageRules": [
 		{
+			"description": "Ensure any digest-pinned, GitHub-sourced, dependencies creates a link to the diff between the two commits",
 			"matchSourceUrls": [
 				"https://github.com/*"
 			],
